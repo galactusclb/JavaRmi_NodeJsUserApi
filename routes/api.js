@@ -37,7 +37,7 @@ router.get('/gg', (req, res) => {
 
 
 router.post('/login', async (req, res) => {
-    await new Promise(resolve => setTimeout(resolve, 10000));
+    // await new Promise(resolve => setTimeout(resolve, 10000));
 
     try {
         console.log(req.body)
@@ -64,7 +64,7 @@ router.post('/login', async (req, res) => {
 })
 
 router.get('/userdetails', async (req, res) => {
-    await new Promise(resolve => setTimeout(resolve, 10000));
+    // await new Promise(resolve => setTimeout(resolve, 10000));
     console.log(req.query)
 
     try {
